@@ -1,0 +1,57 @@
+body {
+    color: #212529;
+    font-family: '微軟正黑體';
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+p {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+li+li {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #212529;
+    transition-duration: 400ms;
+}
+
+a:hover {
+    color: blue;
+}
+
+a.back {
+    display: block;
+    padding: 10px;
+    background: red;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    position: sticky;
+    top: 10px;
+    transition-duration: 400ms;
+}
+
+a.back:hover {
+    background: #000;
+    color: white;
+}
+
+.main {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
